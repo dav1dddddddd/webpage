@@ -6,16 +6,16 @@
     <meta name="description" content="Hi, I'm David Lim, and this is .me, a personal website about me, my life, and my passions. Thanks for stopping by.">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/707024b310.js" crossorigin="anonymous"></script>
-    <title>.me | a personal project</title>
+    <title>.me() | a personal project</title>
 </head>
 <body>
   <div class="navbar">
     <nav>
       <u1 id="tabmenu">
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">.about()</a></li>
+        <li><a href="#skills">.skills()</a></li>
+        <li><a href="#projects">.projects()</a></li>
+        <li><a href="#contact">.contact()</a></li>
       </u1>
     </nav>
   </div>
@@ -33,75 +33,81 @@
         <div class="intro-sentence">
             <h2 id="pre-text">Hi!</h2>
             <h3 id="name">I'm David Lim.</h3>
-            <p>dreaming software engineer @ utdallas</p>
+            <p>a dreaming software engineer @ utdallas</p>
         </div>
     </div>
 <!------------ABOUT SECT-------------------------->
     <div id="about">
-        <div id="#about" style="position: relative" style="top: -155px">
+        <div id="#about" style="position: relative">
             <div class="column">
+                <div class="container">
                 <div class="icon-images">
                     <u1>
-                        <li><img src="assets/images/marian.png" alt="MCCHS logo"></li>
-                        <li><img src="assets/images/utd.png" alt="UTD logo"></li>
+                        <li><img id=mcchs src="assets/images/marian.png" alt="MCCHS logo"></li>
+                        <li><img id=utd src="assets/images/utd.png" alt="UTD logo"></li>
                         <i class="fa-solid fa-cat"></i>
                     </u1>
                 </div>
                 <div class="about-row">
-                    <h1 class="sub-header">Who?</h1>
-                    <p>Born and raised in Illinois, I'm currently a Sophomore Computer Science major at the University of Texas at Dallas.
-                    I believe challenges and discomfort are not things that bring you down, but rather things that elevate your potential.
-                    I love tackling opportunities to improve and better myself, regardless of failure. No journey to success is easy,
-                    and I'm determined to create more than I would have ever dreamt of.
+                    <h1 class="sub-header">.who()</h1>
+                    <div class="aboutcontainer">
+                        <div class="aboutcontainer2">
+                            <p>Born and raised in Illinois, I'm currently a Sophomore Computer Science major at the University of Texas at Dallas.
+                            I believe challenges and discomfort are not things that bring you down, but rather things that elevate your potential.
+                            I love tackling opportunities to improve and better myself, regardless of failure. No journey to success is easy,
+                            and I'm determined to create more than I would have ever dreamt of.
 
-                    <br></br>
-                    Browse through the sections below to learn more about me, and of course feel free to <c><a href="#contact">reach out</a></c> to me if you need more information. 
-                    Thanks for your time!
-                    </p>
+                            <br></br>
+                            Browse through the sections below to learn more about me, and of course feel free to <c><a href="#contact">reach out</a></c> to me if you need more information. 
+                            Thanks for your time!
+                            </p>
 
-                    <div class="tab-names">
-                        <p class="tab-open" onclick="opentab('education')">Education</p>
-                        <p class="tab-open" onclick="opentab('passions')">Passions</p>
-                        <p class="tab-open" onclick="opentab('experience')">Experience</p>
-                    </div>
-                    <div class="tab-info" id="education">
-                        <ul>
-                            <li><span>The University of Texas at Dallas</span>
-                            <p>B.E., Computer Science, Erik Jonsson School of Engineering
+                            <div class="tab-names">
+                                <p class="tab-open" onclick="opentab('education')">.education()</p>
+                                <p class="tab-open" onclick="opentab('passions')">.passions()</p>
+                                <p class="tab-open" onclick="opentab('experience')">.experience()</p>
+                            </div>
+                        <div class="tab-info" id="education">
+                            <ul>
+                                <li><d>The University of Texas at Dallas</d>
+                                <p>B.E., Computer Science, Erik Jonsson School of Engineering
 
-                                <br></br><i><f>2022 - 2026</i></f>
-                            </p></li>
-                            <li><span>Marian Central Catholic High School</span>
-                            <p>Top 10% award, High Honor roll, AP Student
+                                    <br></br><i><f>2022 - 2026</i></f>
+                                </p></li>
+                                <li><d>Marian Central Catholic High School</d>
+                                <p>Top 10% award, High Honor roll, AP Student
 
-                                <br><i><f>2018 - 2022</f></i>
-                            </p></li>
-                        </ul>
-                    </div>
-                    <div class="tab-info" id="passions">
-                        <ul>
-                            <li><span>Music</span>
-                            <p>Instrumentals, RnB, rap, hip-hop, slow love songs: you name it. 
+                                    <br><i><f>2018 - 2022</f></i>
+                                </p></li>
+                            </ul>
+                        </div>
+                        <div class="tab-info" id="passions">
+                            <ul>
+                                <li><d>Music</d>
+                                <p>Instrumentals, RnB, rap, hip-hop, slow love songs: you name it. 
                                 I love music and I probably have a playlist for every mood I could be in.
-                            </p></li>
-                            <li><span>Video games</span>
-                            <p>In the off-chance I am not coding in my free-time, I love playing video games with friends. 
+                                </p></li>
+                                <li><d>Video games</d>
+                                <p>In the off-chance I am not coding in my free-time, I love playing video games with friends. 
                                 Minecraft, Palworld, and League are among my favorites (I love and hate League at the same time).
-                            </p></li>
-                        </ul>
+                                </p></li>
+                            </ul>
+                        </div>
+                        <div class="tab-info active-tab" id="experience">
+                            <ul>
+                                <li><d>Runner</d>
+                                <p>Gen Korean BBQ
+                                    <br><i><f>May 2023 - August 2023</f></i>
+                                </p></li>
+                                <li><d>Server</d>
+                                <p>RAMEN HAKATA
+                                    <br><i><f>August 2023 - February 2024</f></i>
+                                </p></li>
+                            </ul>
+                        </div>
+                        </div>
                     </div>
-                    <div class="tab-info active-tab" id="experience">
-                        <ul>
-                            <li><span>Runner</span>
-                            <p>Gen Korean BBQ
-                                <br><i><f>May 2023 - August 2023</f></i>
-                            </p></li>
-                            <li><span>Server</span>
-                            <p>RAMEN HAKATA
-                                <br><i><f>August 2023 - February 2024</f></i>
-                            </p></li>
-                        </ul>
-                    </div>
+                </div>
                 </div>
             </div>
         </div>
@@ -161,3 +167,7 @@
                 </div>
             </div>
     </div>
+<!------------PROJECTS SECT-------------------------->
+div.
+</body>
+</html>

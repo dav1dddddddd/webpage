@@ -13,4 +13,262 @@ body
     background-image: url('../assets/images/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    font-size: 2.5rem;
+    max-width: 150rem;
+}
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav ul
+{
+    position: absolute;
+    right: 3%;
+}
+nav ul li
+{
+    list-style: none;
+    display: inline-block
+}
+html
+{
+    scroll-behavior: smooth;
+}
+.me
+{
+    width: 105.5rem;
+    max-width: 140rem;
+    border: 2rem solid #000000;
+    border-radius: 75rem;
+    position: relative;
+    left: 15%;
+    top: 20rem;
+}
+.selfie img
+{
+    border: 2rem solid rgba(70, 56, 82, 0.76);
+    filter: drop-shadow(0 0 1rem rgb(0,0,0));
+}
+#intro .icon-images
+{
+    display: flex;
+    flex-direction: center;
+    position: absolute;
+    top: 20rem;
+    left: 117.5rem;
+    filter: drop-shadow(0 0 1rem rgb(0,0,0));
+    z-index: 4;
+}
+#intro .icon-images img
+{
+    width: 12.25rem;
+    max-width: 29rem;
+    margin-bottom: 1rem;
+}
+#linkedin
+{
+    position: relative;
+    left: 2.75rem;
+    top: 16.5rem;
+}
+#github
+{
+    position: relative;
+    top: 32.5rem;
+    left: 0.75rem;
+}
+#instagram
+{
+    position: relative;
+    top: 50.5rem;
+    right: 5.5rem;
+}
+#spotify
+{
+    position: relative;
+    top: 70rem;
+    right: 17.5rem;
+}
+.intro-sentence
+{
+    position: relative;
+    bottom: 60rem;
+    left: 125%;
+}
+.intro-sentence p
+{
+    font-size: 7.5rem;
+}
+#pre-text
+{
+    font-size: 12.5rem;
+}
+#name
+{
+    font-size: 15rem;
+}
+.sub-header
+{
+    font-size: 20rem;
+    font-weight: bold;
+    position: relative;
+    margin-top: 15%;
+    margin-left: 150rem;
+}
+.aboutcontainer
+{
+    width: 330rem;
+    max-height: 120rem;
+    border-radius: 6.5rem;  
+}
+.aboutcontainer2
+{
+    background: linear-gradient(rgba(70, 56, 82, 0), rgba(70, 56, 82, 1));
+    width: 370rem;
+}
+.about-row
+{
+    text-align: center;
+}
+.about-row p
+{
+    max-width: 335rem;
+    font-size: 4.25rem;
+    margin-left: 4.5%;
+}
+d
+{
+    font-size: 6rem;
+}
+#about .icon-images
+{
+    display: flex;
+    flex-direction: center;
+    position: absolute;
+    top: 2rem;
+    left: 500px;
+    z-index: 6;
+}
+#about .icon-images img
+{
+    width: 12.5rem;
+    max-width: 20rem;
+    margin-bottom: 2rem;
+}
+.icon-images i
+{
+    font-size: 15rem;
+}
+#skills .icon-images
+{
+    display: flex;
+    flex-direction: center;
+    position: relative;
+    top: 87.5rem;
+    z-index: 10;
+}
+#skills .icon-images img
+{
+    width: 5.5rem;
+    max-width: 10rem;
+}
+.wrapper
+{
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 28.25rem;
+    max-height: 250rem;
+    width: 370rem;
+    height: 300%;
+    background-color: #463852;
+    padding: 6% 9%;
+}
+.skills-header
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skills-header h1
+{
+    font-size: 20rem;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: transparent;
+    letter-spacing: 2px;
+}
+.skills-header h1:after
+{
+    content: "";
+    position: absolute;
+    top: 34.5%;
+    left: 4.825%;
+    height: 1rem;
+    width: 90%;
+    border-radius: 16px;
+    background-color: rgba(155, 84, 84, 0.5);
+}
+b
+{
+    position: absolute;
+    top: 86.25rem;
+    left: 4.75%;
+    height: 1rem;
+    width: 5rem;
+    border-radius: 50%;
+    background-color: #fc4141;
+    animation: anim 5s linear infinite;
+}
+@keyframes anim
+{
+    99%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        opacity: 0;
+        left: 93.75%;
+    }
+}
+.cards
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+    margin-right: 2.5%;
+    
+}
+.card-title
+{
+    top: 35rem;
+    font-size: 11.275rem;
+    font-weight: bold;
+}
+.card
+{
+    margin-top: 5rem;
+    height: 90rem;
+    width: 110rem;
+    max-width: 300rem;
+    margin-left: 3.5%;
+    background-color: #3C2B4B;
+    border: 0.2px solid #4f3c57;
+    border-radius: 5.5rem;
+    transition: 0.6s;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.card h2
+{
+    position: relative;
+}
+.card p
+{
+    top: 20rem;
+    position: relative;
+    font-size: 3rem;
 }

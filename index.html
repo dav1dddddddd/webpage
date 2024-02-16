@@ -6,6 +6,7 @@
     <meta name="description" content="Hi, I'm David Lim, and this is .me, a personal website about me, my life, and my passions. Thanks for stopping by.">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/707024b310.js" crossorigin="anonymous"></script>
+    <script src="js/tab menu.js"></script>
     <title>.me() | a personal project</title>
 </head>
 <body>
@@ -45,8 +46,6 @@
                 <div class="container">
                 <div class="icon-images">
                     <u1>
-                        <li><img id=mcchs src="assets/images/marian.png" alt="MCCHS logo"></li>
-                        <li><img id=utd src="assets/images/utd.png" alt="UTD logo"></li>
                         <i class="fa-solid fa-cat"></i>
                     </u1>
                 </div>
@@ -66,19 +65,26 @@
                         </div>
                         <div class="tab-container">
                             <div class="button-names">
-                                <button class="tab-button">.education()</button>
-                                <button class="tab-button">.experience()</button>
-                                <button class="tab-button">.passion()</button>
+                                <button class="tab-button active">EDUCATION</button>
+                                <button class="tab-button">EXPERIENCE</button>
+                                <button class="tab-button">PASSIONS</button>
+                                <div class="line"></div>
                             </div>
                         <div class="info-container">
-                            <div class="info">
-                                <h2>The University of Texas at Dallas</h2>
-                                <p>B.E., Computer Science, Erik Jonsson School of Engineering
+                            <div class="info active">
+                                <ul>
+                                    <div class="image-container">
+                                        <li><img id=utd src="assets/images/utd.png" alt="UTD logo"></li>
+                                        <li><img id=mcchs src="assets/images/marian.png" alt="MCCHS logo"></li>
+                                    </div>
+                                </ul>
+                                <h2><k>The University of Texas at Dallas</k></h2>
+                                <p><y>B.E., <x>Computer Science</x>, Erik Jonsson School of Engineering</y>
 
                                     <br></br><e>2022 - Current</e>
                                 </p>
-                                <h2>Marian Central Catholic High School</h2>
-                                <p>Top 10% award, High Honor roll, AP Student
+                                <h2><z>Marian Central Catholic High School</z></h2>
+                                <p><y>Top 10% award, High Honor roll, AP Student</y>
                                     <br><e>2018 - 2022</e>
                                 </p>
                             </div>
@@ -110,6 +116,26 @@
             </div>
         </div>
     </div>
+    <script>
+        const tabs = document.querySelectorAll('.tab-button');
+        const all_content = document.querySelectorAll('.info');
+
+        tabs.forEach((tab, index)=>{
+            tab.addEventListener('click', (e)=>{
+                tabs.forEach(tab=>{tab.classList.remove('active')});
+                tab.classList.add('active');
+
+                var line = document.querySelector('.line');
+                line.style.width = e.target.offsetWidth + "px";
+                line.style.left = e.target.offsetLeft + "px";
+
+                all_content.forEach(content=>{
+                    content.classList.remove('active')
+                });
+                all_content[index].classList.add('active');
+            })
+        })
+    </script>
 <!------------SKILLS SECT-------------------------->
     <div id="skills">
          <div id="#skills" style="position: relative"></div>

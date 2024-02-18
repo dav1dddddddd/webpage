@@ -229,24 +229,27 @@ g
 }
 .info-container li img
 {
-    width: 2.5rem;
+    width: 4.5rem;
 }
-.image-container
+.image-container-edu
 {
     background-color: rgba(86, 71, 100, 0.5);
+    margin-top: 0.25rem;
     border-radius: 0.5rem;
-    width: 3.5rem;
-    height: 3.5rem;
+    width: 7rem;
+    height: 14.6rem;
 }
 #mcchs
 {
     position: relative;
+    top: 4.25rem;
+    
 }
 #utd
 {
     position: relative;
-    top: 0.5rem;
-    left: 4.5rem;
+    top: 1rem;
+    left: rem;
 
 }
 .info-container .info
@@ -284,38 +287,95 @@ g
 {
     margin-bottom: 1.5rem;
 }
-k
-{
-    position: relative;
-    font-size: 2rem;
-    bottom: 3rem;
-    left: 2rem;
-}
 x
 {
     font-weight: bold;
 }
-z
+edu1
 {
     position: relative;
     font-size: 2rem;
-    font-weight: 700;
-    left: 1.65rem;
+    bottom: 14rem;
+    left: 2rem;
 }
-y
+edu2
 {
     position: relative;
     left: 2.5rem;
     font-size: 1.25rem;
     color: #fd7a7a;
-    bottom: 3.5rem;
+    bottom: 15rem;
 }
-e
+edu3
 {
     position: relative;
-    bottom: 3.5rem;
+    bottom: 15.5rem;
     font-style: italic;
-    color: #9b5050;
+    font-size: 1.25rem;
+    color: #c45555;
+}
+edu4
+{
+    position: relative;
+    font-size: 1.925rem;
+    font-weight: 700;
+    left: 1.65rem;
+    bottom: 14rem;
+}
+edu5
+{
+    position: relative;
+    left: 2.5rem;
+    font-size: 1.25rem;
+    color: #fd7a7a;
+    bottom: 15rem;
+}
+edu6
+{
+    position: relative;
+    bottom: 14.25rem;
+    font-style: italic;
+    font-size: 1.25rem;
+    color: #c45555;
+}
+exp1
+{
+    position: relative;
+    font-size: 2rem;
+}
+exp2
+{
+    position: relative;
+    font-size: 1.25rem;
+    color: #fd7a7a;
+    bottom: 1rem;
+    left: 4.75rem;
+}
+exp3
+{
+    position: relative;
+    font-style: italic;
+    font-size: 1.25rem;
+    color: #c45555;
+    right: 15rem;
+    top: 1rem;
+}
+exp4
+{
+    position: relative;
+    font-size: 2rem;
+}
+exp5
+{
+    position: relative;
+    color: #fd7a7a;
+    font-size: 1.25rem;
+}
+exp6
+{
+    position: relative;
+    font-size: 1.25rem;
+    top: 3rem;
 }
 .line
 {

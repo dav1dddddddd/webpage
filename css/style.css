@@ -253,22 +253,24 @@ g
 }
 .image-container-exp
 {
+    position: relative;
     background-color: rgba(86, 71, 100, 0.5);
     margin-top: 0.25rem;
     border-radius: 0.5rem;
     width: 7rem;
     height: 14.6rem;
+    left: 1.5rem;
 }
 #gen
 {
     position: relative;
     top: 0.75rem;
-    width: 7rem;
+    width: 6rem;
 }
 #ramenhakata
 {
     position: relative;
-    top: 2rem;
+    top: 3.25rem;
     right: 3.65rem;
     width: 14rem;
 }
@@ -363,14 +365,15 @@ exp1
     position: relative;
     font-size: 2rem;
     bottom: 14rem;
+    left: 2rem;
 }
 exp2
 {
     position: relative;
     font-size: 1.25rem;
     color: #fd7a7a;
-    bottom: 1rem;
-    left: 4.75rem;
+    bottom: 15rem;
+    left: 8.75rem;
 }
 exp3
 {
@@ -378,25 +381,33 @@ exp3
     font-style: italic;
     font-size: 1.25rem;
     color: #c45555;
-    right: 15rem;
-    top: 1rem;
+    right: 12.5rem;
+    bottom: 12.75rem;
 }
 exp4
 {
     position: relative;
     font-size: 2rem;
+    bottom: 11.25rem;
+    left: 2rem;
 }
 exp5
 {
     position: relative;
     color: #fd7a7a;
     font-size: 1.25rem;
+    bottom: 12.25rem;
+    left: 9.75rem;
 }
 exp6
 {
     position: relative;
+    color: #c45555;
+    font-style: italic;
     font-size: 1.25rem;
-    top: 3rem;
+    bottom: 10rem;
+    right: 11.5rem;
+    white-space: nowrap;
 }
 .line
 {

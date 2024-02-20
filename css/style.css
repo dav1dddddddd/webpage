@@ -152,6 +152,8 @@ html
     position: relative;
     margin-top: 15%;
     margin-left: 39.5rem;
+    width: 24rem;
+    max-width: 24rem;
 }
 .aboutcontainer
 {
@@ -264,14 +266,14 @@ g
 #gen
 {
     position: relative;
-    top: 0.75rem;
+    top: 8rem;
     width: 6rem;
 }
 #ramenhakata
 {
     position: relative;
-    top: 3.25rem;
-    right: 3.65rem;
+    bottom: 5.5rem;
+    right: 3.7rem;
     width: 14rem;
 }
 .info-container .info
@@ -373,7 +375,7 @@ exp2
     font-size: 1.25rem;
     color: #fd7a7a;
     bottom: 15rem;
-    left: 8.75rem;
+    left: 9.75rem;
 }
 exp3
 {
@@ -381,7 +383,7 @@ exp3
     font-style: italic;
     font-size: 1.25rem;
     color: #c45555;
-    right: 12.5rem;
+    right: 11.5rem;
     bottom: 12.75rem;
 }
 exp4
@@ -389,7 +391,7 @@ exp4
     position: relative;
     font-size: 2rem;
     bottom: 11.25rem;
-    left: 2rem;
+    left: 1.75rem;
 }
 exp5
 {
@@ -397,7 +399,7 @@ exp5
     color: #fd7a7a;
     font-size: 1.25rem;
     bottom: 12.25rem;
-    left: 9.75rem;
+    left: 8.75rem;
 }
 exp6
 {
@@ -406,8 +408,32 @@ exp6
     font-style: italic;
     font-size: 1.25rem;
     bottom: 10rem;
-    right: 11.5rem;
+    right: 13rem;
     white-space: nowrap;
+}
+pas1
+{
+    position: relative;
+    font-size: 2rem;
+    top: 1rem;
+}
+pas2
+{
+    position: relative;
+    font-size: 1.25rem;
+    color: #fd7a7a;
+
+}
+pas3
+{
+    position: relative;
+    font-size: 2rem;
+}
+pas4
+{
+    position: relative;
+    font-size: 1.25rem;
+    color: #fd7a7a;
 }
 .line
 {

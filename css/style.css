@@ -250,7 +250,27 @@ g
     position: relative;
     top: 1rem;
     left: rem;
-
+}
+.image-container-exp
+{
+    background-color: rgba(86, 71, 100, 0.5);
+    margin-top: 0.25rem;
+    border-radius: 0.5rem;
+    width: 7rem;
+    height: 14.6rem;
+}
+#gen
+{
+    position: relative;
+    top: 0.75rem;
+    width: 7rem;
+}
+#ramenhakata
+{
+    position: relative;
+    top: 2rem;
+    right: 3.65rem;
+    width: 14rem;
 }
 .info-container .info
 {
@@ -342,6 +362,7 @@ exp1
 {
     position: relative;
     font-size: 2rem;
+    bottom: 14rem;
 }
 exp2
 {
@@ -468,7 +489,7 @@ b
 }
 @keyframes anim
 {
-    99%
+    92.5%
     {
         opacity: 1;
     }

@@ -26,12 +26,26 @@ nav
 nav ul
 {
     position: absolute;
-    right: 3%;
+    top: 1rem;
+    right: 5%;
 }
 nav ul li
 {
     list-style: none;
+    margin: 0 1rem;
     display: inline-block
+}
+nav ul li a
+{
+    color: #fdacac;
+    font-size: 2rem;
+    text-decoration: none;
+    font-weight: 550;
+    transition: all 0.5s ease;
+}
+nav ul li a:hover
+{
+    color: #b06c6c;
 }
 html
 {
@@ -151,9 +165,15 @@ html
     font-weight: bold;
     position: relative;
     margin-top: 15%;
-    margin-left: 39.5rem;
+    margin-left: 36.5rem;
     width: 24rem;
     max-width: 24rem;
+}
+.icon-images i
+{
+    position: relative;
+    right: 1rem;
+    top: 0.5rem;
 }
 .aboutcontainer
 {
@@ -174,6 +194,11 @@ html
 g
 {
     font-size: 1.75rem;
+}
+h
+{
+    position: relative;
+    
 }
 .about-row
 {
@@ -275,6 +300,174 @@ g
     bottom: 5.5rem;
     right: 3.7rem;
     width: 14rem;
+}
+.globe-container
+{
+    position: relative;
+    margin-top: 0.25rem;
+    border-radius: 0.5rem;
+    width: 7rem;
+    height: 7rem;
+    left: 4.5rem;
+    bottom: 1rem;
+}
+.game-container
+{
+    position: relative;
+    background-color: rgba(70, 56, 82, 0.8);
+    border-radius: 0.5rem;
+    width: 23rem;
+    height: 2.5rem;
+    bottom: 0.95rem;
+    left: 19rem;
+    z-index: 1;
+}
+.game-background-container
+{
+    position: relative;
+    background-image: url('../assets/images/videogames.jpg');
+    border-radius: 0.5rem;
+    width: 23rem;
+    height: 2.5rem;
+    bottom: 5.3rem;
+    left: 19rem;
+    z-index: 0;
+}
+.ski-container
+{
+    position: relative;
+    background-color: rgba(70, 56, 82, 0.8);
+    border-radius: 0.5rem;
+    width: 23rem;
+    height: 2.5rem;
+    bottom: 4.55rem;
+    left: 19rem;
+    z-index: 1;
+}
+.ski-background-container
+{
+    position: relative;
+    background-image: url('../assets/images/ski.jpg');
+    border-radius: 0.5rem;
+    width: 23rem;
+    height: 2.5rem;
+    bottom: 8.925rem;
+    left: 19rem;
+    z-index: 0;
+}
+.bouldering-container
+{
+    position: relative;
+    background-color: rgba(70, 56, 82, 0.8);
+    border-radius: 0.5rem;
+    width: 23rem;
+    height: 2.5rem;
+    bottom: 14.675rem;
+    right: 5rem;
+    z-index: 1;
+}
+.bouldering-background-container
+{
+    position: relative;
+    background-image: url('../assets/images/bouldering.jpg');
+    border-radius: 0.5rem;
+    width: 23rem;
+    height: 2.5rem;
+    bottom: 19rem;
+    right: 5rem;
+    z-index: 0;
+}
+.music-container
+{
+    position: relative;
+    background-color: rgba(70, 56, 82, 0.8);
+    border-radius: 0.5rem;
+    width: 23rem;
+    height: 2.5rem;
+    bottom: 18.25rem;
+    right: 5rem;
+    z-index: 1;
+}
+.music-background-container
+{
+    position: relative;
+    background-image: url('../assets/images/music.jpg');
+    border-radius: 0.5rem;
+    width: 23rem;
+    height: 2.5rem;
+    bottom: 22.6rem;
+    right: 5rem;
+    z-index: 0;
+}
+c
+{
+    position: relative;
+    font-size: 1.5rem;
+    bottom: 3rem;
+    left: 6rem;
+    z-index: 2;
+}
+d
+{
+    position: relative;
+    font-size: 1.5rem;
+    bottom: 6.75rem;
+    left: 6.25rem;
+    z-index: 2;
+}
+e
+{
+    position: relative;
+    font-size: 1.5rem;
+    right: 18rem;
+    bottom: 16.75rem;
+    z-index: 2;
+}
+f
+{
+    position: relative;
+    font-size: 1.5rem;
+    bottom: 20.3rem;
+    right: 17.5rem;
+    z-index: 2;
+}
+.fa-earth-americas
+{
+    position: relative;
+    font-size: 4rem;
+    top: 0.75rem;
+}
+.fa-gamepad
+{
+    position: relative;
+    color: #fdacac;
+    bottom: 3rem;
+    left: 5.5rem;
+    z-index: 2;
+}
+.fa-person-skiing
+{
+    position: relative;
+    color: #fdacac;
+    bottom: 6.65rem;
+    left: 5.75rem;
+    z-index: 2;
+}
+.fa-mountain
+{
+    position: relative;
+    color: #fdacac;
+    bottom: 16.65rem;
+    right: 18.5rem;
+    z-index: 2;
+}
+.fa-music
+{
+    position: relative;
+    color: #fdacac;
+    bottom: 20.25rem;
+    right: 18rem;
+    z-index: 2;
 }
 .info-container .info
 {
@@ -415,25 +608,43 @@ pas1
 {
     position: relative;
     font-size: 2rem;
-    top: 1rem;
+    bottom: 7.5rem;
+    left: 0.5rem;
 }
 pas2
 {
     position: relative;
     font-size: 1.25rem;
     color: #fd7a7a;
-
+    left: 7rem;
+    bottom: 8.5rem;
 }
 pas3
 {
     position: relative;
-    font-size: 2rem;
+    font-size: 1.25rem;
+    color: #c45555;
+    bottom: 6.25rem;
+    right: 4.75rem;
 }
 pas4
 {
     position: relative;
+    font-size: 2rem;
+    left: 0.25rem;
+    bottom: 5rem;
+}
+pas5
+{
+    position: relative;
     font-size: 1.25rem;
     color: #fd7a7a;
+    bottom: 5rem;
+    left: 5rem;
+}
+pas5 i
+{
+    font-size: 1.5rem;
 }
 .line
 {
@@ -467,6 +678,7 @@ pas4
 }
 #skills .icon-images
 {
+    position: relative;
     display: flex;
     flex-direction: center;
     position: relative;
@@ -475,25 +687,31 @@ pas4
 }
 #skills .icon-images img
 {
-    width: 1.375rem;
-    max-width: 2.5rem;
+    width: 6rem;
+}
+#html
+{
+    position: relative;
+    bottom: 10rem;
+    right: 12rem;
 }
 .wrapper
 {
     position: relative;
     box-sizing: border-box;
     margin-top: 15.415rem;
-    max-height: 120.5rem;
     width: 92.5rem;
-    height: 300%;
+    height: 80rem;
     background-color: #463852;
     padding: 6% 9%;
 }
 .skills-header
 {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
+    bottom: 5rem;
 }
 .skills-header h1
 {
@@ -506,7 +724,7 @@ pas4
 {
     content: "";
     position: absolute;
-    top: 34.5%;
+    top: 19rem;
     left: 4.825%;
     height: 0.25rem;
     width: 90%;
@@ -516,12 +734,12 @@ pas4
 b
 {
     position: absolute;
-    top: 21.5625rem;
+    top: 19rem;
     left: 4.75%;
     height: 0.25rem;
     width: 1.25rem;
     border-radius: 50%;
-    background-color: #fc4141;
+    background-color: #f92828;
     animation: anim 5s linear infinite;
 }
 @keyframes anim
@@ -542,11 +760,11 @@ b
     grid-template-columns: repeat(3, 1fr);
     gap: 1.25rem;
     margin-right: 2.5%;
-    
 }
 .card-title
 {
-    top: 8.75rem;
+    position: relative;
+    top: 9.5rem;
     font-size: 2.81875rem;
     font-weight: bold;
 }
@@ -565,13 +783,16 @@ b
     display: flex;
     flex-direction: column;
 }
-.card h2
+.card:after
 {
-    position: relative;
+    content: "";
+    position: absolute;
 }
 .card p
 {
-    top: 5rem;
+    color: #fd7a7a;
     position: relative;
-    font-size: 0.75rem;
+    width: 22.5rem;
+    top: 9.5rem;
+    font-size: 1.25rem;
 }

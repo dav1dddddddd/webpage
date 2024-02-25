@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/707024b310.js" crossorigin="anonymous"></script>
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
-    <script src="js/tab menu.js"></script>
     <title>.me() | a personal project</title>
 </head>
 <body>
@@ -233,9 +232,9 @@
                     <h1><br></br>PROJECTS<q></q></h1>
                 <div class="projects-container">
                     <input type="radio" name="slide" id="project1" checked>
-                    <label for="project1" class="presentation">
+                    <label for="project1" id="slide1" class="presentation">
                         <div class="project1-container"></div>
-                        <video class="active" id="project1-video" src="assets/videos/project 1 video.mp4" muted loop playsinline poster="assets/images/project 1 cover.png"></video>
+                        <video class="active" id="project1-video" src="assets/videos/project 1 video.mp4" autoplay muted loop playsinline poster="assets/images/project 1 cover.png"></video>
                         <div class="bar">
                             <div class="number">1</div>
                             <div class="description">
@@ -245,7 +244,9 @@
                         </div>
                     </label>
                     <input type="radio" name="slide" id="project2">
-                    <label for="project2" class="presentation">
+                    <label for="project2" id="slide2" class="presentation">
+                        <div class="project2-container"></div>
+                        <video id="project2-video" src="assets/videos/project 2 video.mp4" muted loop playsinline poster="assets/images/project 2 cover.png"></video>
                         <div class="bar">
                             <div class="number">2</div>
                             <div class="description">
@@ -255,7 +256,9 @@
                         </div>
                     </label>
                     <input type="radio" name="slide" id="project3">
-                    <label for="project3" class="presentation">
+                    <label for="project3" id="slide3" class="presentation">
+                        <div class="project3-container"></div>
+                        <video id="project3-video" src="assets/videos/project 3 video.mp4" muted loop playsinline poster="assets/images/project 3 cover.png"></video>
                         <div class="bar">
                             <div class="number">3</div>
                             <div class="description">
@@ -268,5 +271,7 @@
             </div>
         </div>
     </div>
+    
+    <script src="js/mp4 player.js"></script>
 </body>
 </html>

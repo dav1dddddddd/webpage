@@ -6,6 +6,7 @@
     <meta name="description" content="Hi, I'm David Lim, and this is .me, a personal website about me, my life, and my passions. Thanks for stopping by.">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/707024b310.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
     <script src="js/tab menu.js"></script>
     <title>.me() | a personal project</title>
 </head>
@@ -36,7 +37,7 @@
         <div class="intro-sentence">
             <h2 id="pre-text">Hi!</h2>
             <h3 id="name">I'm David Lim.</h3>
-            <p>a dreaming software engineer @ utdallas</p>
+            <p>a dreaming software engineer @ UTD</p>
         </div>
     </div>
 <!------------ABOUT SECT-------------------------->
@@ -65,13 +66,13 @@
                         </div>
                         <div class="tab-container">
                             <div class="button-names">
-                                <button class="tab-button">EDUCATION</button>
+                                <button class="tab-button active">EDUCATION</button>
                                 <button class="tab-button">EXPERIENCE</button>
-                                <button class="tab-button active">PASSIONS</button>
+                                <button class="tab-button">PASSIONS</button>
                                 <div class="line"></div>
                             </div>
                         <div class="info-container">
-                            <div class="info">
+                            <div class="info active">
                                 <ul>
                                     <div class="image-container-edu">
                                         <li><a href="https://utdallas.edu"><img id=utd src="assets/images/utd.png" alt="UTD logo"></a></li>
@@ -105,7 +106,7 @@
                                     
                                 </ul>
                             </div>
-                            <div class="info active">
+                            <div class="info">
                                 <div class="globe-container">
                                     <ul>
                                         <li><i class="fa-solid fa-earth-americas"></i></li>
@@ -163,52 +164,61 @@
 <!------------SKILLS SECT-------------------------->
     <div id="skills">
          <div id="#skills" style="position: relative"></div>
-            <div class="wrapper">
+            <div class="skills-wrapper">
                 <div class="skills-header">
                     <h1><br><br><k>SKILLS</k><b></b></h1>
-                    <div class="icon-images">
-                        <li><img id=html src="assets/images/html5.png" alt="HTML5 Logo"></li>
-                        <li><img id=c++ src="assets/images/c++.png" alt="C++ Logo"></li>
-                        <li><img id=java src="assets/images/java.png" alt="Java Logo"></li>
-                        <li><img id=javascript src="assets/images/javascript.png" alt="JavaScript Logo"></li>
-                        <li><img id=python src="assets/images/python.png" alt="Python Logo"></li>
-                        <li><img id=css src="assets/images/css3.png" alt="CSS3 Logo"></li>
-                    </div>
                     <div class="cards">
                         <div class="card">
-                            <h2 class="card-title">HTML5</h2>
-                            <p>My favorite programming language due to its simplicity and practicality.
-                                    It allowed me to make this project and further understand object-oriented programming.
+                            <h2 class="card-title">HTML</h2>
+                            <i class="fa-brands fa-html5"></i>
+                            <p><x>Front-end</x> web development
+                                <br>
+                                </br><j>The most fun I've had learning a programming language</j>
                             </p>
                         </div>
 
                         <div class="card">
                             <h2 class="card-title">CSS</h2>
-                            <p>jisadjisadjiasjdiasjdijasdijaisdjiasdjaisdjiajdiajdiajdi
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <p><x>Front-end</x> web styling
+                                <br>
+                                </br><j>Nothing like watching a webpage come to life</j>
                             </p>
                         </div>
 
                         <div class="card">
                             <h2 class="card-title">JavaScript</h2>
-                            <p>jisadjisadjiasjdiasjdijasdijaisdjiasdjaisdjiajdiajdiajdi
+                            <i class="fa-brands fa-js"></i>
+                            <p><x>Front/back-end</x> web behavior
+                                <br>
+                                </br><j>The more creative you are, the more you are rewarded</j>
                             </p>
                         </div>
 
                         <div class="card">
                             <h2 class="card-title">Java</h2>
-                            <p>jisadjisadjiasjdiasjdijasdijaisdjiasdjaisdjiajdiajdiajdi
+                            <i class="fa-brands fa-java"></i>
+                            <p><x>Back-end</x> software development
+                                <br>
+                                </br><j>The programming language that started my journey</j>
                             </p>
                         </div>
 
                         <div class="card">
                             <h2 class="card-title">Python</h2>
-                            <p>jisadjisadjiasjdiasjdijasdijaisdjiasdjaisdjiajdiajdiajdi
+                            <i class="fa-brands fa-python"></i>
+                            <p><x>Back-end</x> software development
+                                <br>
+                                </br><j>The simplest programming language I've ever learned</j>
                             </p>
                         </div>
 
                         <div class="card">
                             <h2 class="card-title">C++</h2>
-                            <p>jisadjisadjiasjdiasjdijasdijaisdjiasdjaisdjiajdiajdiajdi
+                            <i class="bx bxl-c-plus-plus"></i>
+                            <p><x>Back-end</x> software development
+                                <br>
+                                </br><j>Nested functionality enhanced my object-oriented programming skills</j>
                             </p>
                         </div>
                     </div>
@@ -216,6 +226,50 @@
             </div>
     </div>
 <!------------PROJECTS SECT-------------------------->
-div.
+    <div id="projects">
+        <div id="#projects" style="position: relative"></div>
+            <div class="projects-wrapper">
+                <div class="projects-header">
+                    <h1><br></br>PROJECTS<q></q></h1>
+                <div class="projects-container">
+                    <input type="radio" name="slide" id="project1" checked>
+                    <label for="project1" class="presentation">
+                       <div class="bar">
+                            <div class="number">1</div>
+                            <div class="description">
+                                <h4>This Personal Website</h4>
+                                <p>HTML, CSS, JS - Web development</p>
+                            </div>
+                            <div class="video-container">
+                                <video>
+                                    <source src="assets/videos/"
+                                </video>
+                            </div>
+                        </div>
+                    </label>
+                    <input type="radio" name="slide" id="project2">
+                    <label for="project2" class="presentation">
+                        <div class="bar">
+                            <div class="number">2</div>
+                            <div class="description">
+                                <h4>Robotics: Autonomous driving</h4>
+                                <p>ROS2, Docker, Python - Coming soon...</p>
+                            </div>
+                        </div>
+                    </label>
+                    <input type="radio" name="slide" id="project3">
+                    <label for="project3" class="presentation">
+                        <div class="bar">
+                            <div class="number">3</div>
+                            <div class="description">
+                                <h4>AI: Optimal choice model</h4>
+                                <p>Cloud AutoML - Coming soon...</p>
+                            </div>
+                        </div>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

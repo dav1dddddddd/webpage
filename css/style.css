@@ -928,7 +928,7 @@ q
     align-items: flex-end;
     transition: 0.6s cubic-bezier(0.28, -0.03, 0, 0.99);
     box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.8);
-    z-index: 0;
+    z-index: 2;
 }
 .presentation .bar
 {
@@ -937,6 +937,7 @@ q
     color: #fdacac;
     display: flex;
     flex-wrap: nowrap;
+    z-index: 2;
 }
 .presentation .bar .number
 {
@@ -949,6 +950,7 @@ q
     justify-content: center;
     align-items: center;
     margin: 2rem;
+    z-index: 2;
 }
 .presentation .bar .description
 {
@@ -963,6 +965,7 @@ q
     transform: translateY(30px);
     transition-delay: 0.3s;
     transition: all 0.3s ease;
+    z-index: 2;
 }
 .description p
 {
@@ -970,19 +973,17 @@ q
     width: 40rem;
     color: #fd7a7a;
     padding-top: 5px;
-    z-index: 1;
 }
 .description h4
 {
     position: relative;
     width: 25rem;
     text-transform: uppercase;
-    z-index: 1;
 }
 input
 {
     display: none;
-}
+}   
 input:checked + label
 {
     width: 40rem;
@@ -991,4 +992,19 @@ input:checked + label .description
 {
     opacity: 1 !important;
     transform: translateY(0) !important;
+}
+.project1-container
+{
+    position: absolute;
+    background-color: rgba(60, 43, 75, 0.85);
+    width: 40rem;
+    height: 30rem;
+    z-index: 1;
+}
+#project1-video
+{
+    position: absolute;
+    width: 53rem;
+    bottom: rem;
+    z-index: 0;
 }

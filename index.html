@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0>
     <meta name="description" content="Hi, I'm David Lim, and this is .me, a personal website about me, my life, and my passions. Thanks for stopping by.">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/707024b310.js" crossorigin="anonymous"></script>
@@ -43,12 +43,7 @@
     <div id="about">
         <div id="#about" style="position: relative">
             <div class="column">
-                <div class="container">
-                <div class="icon-images">
-                    <u1>
-                        <i class="fa-solid fa-cat"></i>
-                    </u1>
-                </div>
+                <div class="container"></div>
                 <div class="about-row">
                     <h1 class="sub-header">About Me</h1>
                     <div class="aboutcontainer">
@@ -59,7 +54,7 @@
                             and I'm determined to create more than I would have ever dreamt of.
 
                             <br></br>
-                            Browse through the sections below to learn more about me, and of course feel free to <h><a href="#contact">reach out</a></h> to me if you need more information. 
+                            Browse through the sections below to learn more about me, and of course feel free to <a href="#contact">reach out</a> to me if you need more information. 
                             Thanks for your time!
                             </g></p>
                         </div>
@@ -271,7 +266,45 @@
             </div>
         </div>
     </div>
-    
+ <!------------CONTACT SECT-------------------------->
+    <div id="contact">
+        <div id="#contact" style="position: relative"></div>
+        <div class="contact">
+            <div class="container">
+                <div class="form-wrapper">
+                    <div class="contact-header">
+                        <h1>Keep in touch with me<span>.</span></h1>
+                        <p class="text">or talk with me via <a href="mailto:needaluckfamily@gmail.com">needaluckfamily@gmail.com</a></p>
+                    </div>
+                    <form action="index.html" method="post" class="contact-form">
+                        <div class="row">
+                            <div class="input-wrapper">
+                                <input type="text" id="first-name" class="first-name" autocomplete="off" required>
+                                <label for="first-name">First Name</label>
+                                <i class="fa-solid fa-address-card"></i>
+                            </div>
+                            <div class="input-wrapper">
+                                <input type="text" id="last-name" class="last-name" autocomplete="off" required>
+                                <label for="last-name">Last Name</label>
+                                <i class="fa-solid fa-address-card"></i>
+                            </div>
+                        </div>
+                        <div class="input-wrapper">
+                            <input type="email" id="email" class="email" autocomplete="off" required>
+                            <label for="email">Email</label>
+                            <i class="fa-solid fa-at"></i>
+                        </div>
+                        <div class="input-wrapper">
+                            <textarea id="message" class="message" autocomplete="off" required></textarea>
+                            <label for="message">Message</label>
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <button type="submit">Send Message</button>
+                </div>
+            </div>
+        </div>
+    </div>
+ <!------------SCRIPTS SECT-------------------------->
     <script src="js/mp4 player.js"></script>
 </body>
 </html>

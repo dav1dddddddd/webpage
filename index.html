@@ -276,28 +276,28 @@
                         <h1>Keep in touch with me<span>.</span></h1>
                         <p class="text">or talk with me via <a href="mailto:needaluckfamily@gmail.com">needaluckfamily@gmail.com</a></p>
                     </div>
-                    <form action="index.html" method="post" class="contact-form">
+                    <form action="https://script.google.com/macros/s/AKfycbyhu-WHSDs0bDrz6ldaFixI6iaDlqUI3vMhWGIQnnI_F4r0yt27TJxNkeeZFWEUrKcBnQ/exec" method="post" class="contact-form">
                         <div class="row">
-                            <div class="input-wrapper">
-                                <input type="text" id="first-name" class="first-name" autocomplete="off" required>
+                            <div class="input-wrapper first-name">
+                                <input name="First Name" type="text" id="first-name" class="first-name" autocomplete="off" required>
                                 <label for="first-name">First Name</label>
-                                <i class="fa-solid fa-address-card"></i>
+                                <i class="fa-solid fa-address-card" id="firstnameicon"></i>
                             </div>
-                            <div class="input-wrapper">
-                                <input type="text" id="last-name" class="last-name" autocomplete="off" required>
+                            <div class="input-wrapper last-name">
+                                <input name="Last Name" type="text" id="last-name" class="last-name" autocomplete="off" required>
                                 <label for="last-name">Last Name</label>
-                                <i class="fa-solid fa-address-card"></i>
+                                <i class="fa-solid fa-address-card" id="lastnameicon"></i>
                             </div>
                         </div>
-                        <div class="input-wrapper">
-                            <input type="email" id="email" class="email" autocomplete="off" required>
+                        <div class="input-wrapper email">
+                            <input name="Email Address" type="email" id="email" class="email" autocomplete="off" required>
                             <label for="email">Email</label>
-                            <i class="fa-solid fa-at"></i>
+                            <i class="fa-solid fa-at" id="emailicon"></i>
                         </div>
-                        <div class="input-wrapper">
-                            <textarea id="message" class="message" autocomplete="off" required></textarea>
+                        <div class="input-wrapper message">
+                            <textarea name="Message" id="message" class="message" autocomplete="off" required style="resize: none"></textarea>
                             <label for="message">Message</label>
-                            <i class="fa-solid fa-envelope"></i>
+                            <i class="fa-solid fa-envelope" id="messageicon"></i>
                         </div>
                         <button type="submit">Send Message</button>
                 </div>

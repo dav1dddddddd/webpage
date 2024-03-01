@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Varela Round', sans-serif;
+    box-sizing: border-box;
 }
 body
 {
@@ -13,7 +14,7 @@ body
     background-size: cover;
     background-repeat: no-repeat;
     font-size: 0.625rem;
-    max-width: 37.5rem;
+    max-width: 100%;
 }
 nav
 {
@@ -52,9 +53,9 @@ html
 }
 .social-buttons ul
 {
-    position: relative;
-    top: 30rem;
-    left: 64.75rem;
+    position: absolute;
+    top: 68.5%;
+    left: 62.5%;
     margin: 0;
     padding: 0;
     transform: translate(-50%, -50%);
@@ -113,8 +114,8 @@ html
     border: 0.5rem solid #000000;
     border-radius: 18.75rem;
     position: relative;
-    left: 40%;
-    top: 0rem;
+    left: 15%;
+    top: 7.5rem;
 }
 .selfie img
 {
@@ -140,8 +141,9 @@ html
 .intro-sentence
 {
     position: relative;
-    bottom: 21.5rem;
-    left: 125%;
+    bottom: 15rem;
+    left: 47.5%;
+    max-width: 35rem;
 }
 .intro-sentence p
 {
@@ -152,6 +154,7 @@ html
 {
     position: relative;
     font-size: 3.125rem;
+    max-width: 10rem;
 }
 #name
 {
@@ -177,7 +180,7 @@ html
 .aboutcontainer
 {
     position: relative;
-    left: 12.5%;
+    left: 5.5%;
     background-color: rgba(70, 56, 82, 0.8);
     width: 82.5rem;
     max-height: 30rem;
@@ -221,7 +224,7 @@ g
     top: 3.5rem;
     left: 20%;
     width: 50rem;
-    max-height: 22.5rem;
+    max-height: 24rem;
     background-color: rgba(70, 56, 82, 1);
     padding: 1rem;
     box-shadow: 0 2px 16px rgba(0, 0, 0, 0.3);
@@ -324,7 +327,7 @@ g
     width: 23rem;
     height: 2.5rem;
     bottom: 0.95rem;
-    left: 19rem;
+    left: 18.2rem;
     z-index: 1;
 }
 .game-background-container
@@ -335,7 +338,7 @@ g
     width: 23rem;
     height: 2.5rem;
     bottom: 5.3rem;
-    left: 19rem;
+    left: 18.2rem;
     z-index: 0;
 }
 .ski-container
@@ -346,7 +349,7 @@ g
     width: 23rem;
     height: 2.5rem;
     bottom: 4.55rem;
-    left: 19rem;
+    left: 18.2rem;
     z-index: 1;
 }
 .ski-background-container
@@ -357,7 +360,7 @@ g
     width: 23rem;
     height: 2.5rem;
     bottom: 8.925rem;
-    left: 19rem;
+    left: 18.2rem;
     z-index: 0;
 }
 .bouldering-container
@@ -368,7 +371,7 @@ g
     width: 23rem;
     height: 2.5rem;
     bottom: 14.675rem;
-    right: 5rem;
+    right: 5.8rem;
     z-index: 1;
 }
 .bouldering-background-container
@@ -379,7 +382,7 @@ g
     width: 23rem;
     height: 2.5rem;
     bottom: 19rem;
-    right: 5rem;
+    right: 5.8rem;
     z-index: 0;
 }
 .music-container
@@ -390,7 +393,7 @@ g
     width: 23rem;
     height: 2.5rem;
     bottom: 18.25rem;
-    right: 5rem;
+    right: 5.8rem;
     z-index: 1;
 }
 .music-background-container
@@ -401,7 +404,7 @@ g
     width: 23rem;
     height: 2.5rem;
     bottom: 22.6rem;
-    right: 5rem;
+    right: 5.8rem;
     z-index: 0;
 }
 c
@@ -424,6 +427,7 @@ e
 {
     position: relative;
     font-size: 1.5rem;
+    max-height: 5rem;
     right: 18rem;
     bottom: 16.75rem;
     z-index: 2;
@@ -704,7 +708,7 @@ k
     position: relative;
     box-sizing: border-box;
     margin-top: 22.415rem;
-    width: 92.5rem;
+    width: 100%;
     height: 70rem;
     background-color: #463852;
     padding: 6% 9%;
@@ -846,7 +850,7 @@ j
 {
     position: relative;
     background: linear-gradient(rgba(70, 56, 82, 1), rgba(70, 56, 82, 0));
-    width: 92.5rem;
+    width: 100%;
     height: 50rem;
     display: flex;
 }
@@ -1038,13 +1042,12 @@ q
 }
 .contact
 {
-    width: 92.5rem;
+    width: 100%;
     overflow: hidden;
 }
 .contact .container
 {
     position: relative;
-    top: 2.5rem;
     height: 57.5rem;
 }
 .contact-header h1
@@ -1084,8 +1087,9 @@ q
 }
 .form-wrapper
 {
+    position: relative;
     width: 100%;
-    height: 100vh;
+    height: 35rem;
     background-position: center;
     background-size: cover;
     display: flex;
@@ -1095,15 +1099,16 @@ q
 form
 {
     position: relative;
-    top: 7.5rem;
+    top: 11rem;
     right: 28rem;
     width: 90%;
     max-width: 600px;
 }
 .input-wrapper
 {
-    margin-bottom: 2.5rem;
     position: relative;
+    margin-bottom: -0.5rem;
+    bottom: 2rem;
 }
 .form-wrapper input:hover, textarea:hover
 {
@@ -1113,24 +1118,46 @@ form
 }
 .form-wrapper input, textarea
 {
-    padding: 20px;
+    padding-left: 20px;
     outline: 0;
     border: none;
     color: #463852;
     background: #fdacac;
-    font-size: 15px;
+    font-size: 1.5rem;
     border-radius: 20px;
     transition: 0.05s;
 }
-.form-wrapper input:focus~label, input:valid~label, textarea:focus~label, textarea:valid~label
+.form-wrapper textarea
 {
-    top: -8px;
+    padding-top: 25px;
+}
+.form-wrapper input:focus~label, input:valid~label
+{
+    top: -1rem;
+    font-size: 12px;
+    color: #4a355e;
+}
+.form-wrapper input:focus~i, input:valid~i
+{
+    color: #da4343;
+}
+.form-wrapper textarea:focus~i, textarea:valid~i
+{
+    color: #da4343;
+}
+.form-wrapper textarea:focus~label, textarea:valid~label
+{
+    top: -12px;
     font-size: 12px;
     color: #4a355e;
 }
 .form-wrapper input:focus, textarea:focus
 {
     background: #fdacac;
+}
+.input-wrapper input
+{
+    z-index: 2;
 }
 .input-wrapper label
 {
@@ -1139,19 +1166,68 @@ form
     font-size: 1.5rem;
     top: 0;
     left: 0;
-    padding: 20px;
+    padding-top: 25px;
+    padding-left: 20px;
     color: #463852;
+    transition: 0.3s;
+}
+.input-wrapper.message label
+{
+    padding-top: 20px;
+}
+.input-wrapper.first-name i
+{
+    position: relative;
+    bottom: 3.5rem;
+    left: 17rem;
+    color: #463852;
+    font-size: 2rem;
+    transition: 0.3s;
+}
+.input-wrapper.last-name i
+{
+    position: relative;
+    bottom: 3.5rem;
+    left: 17rem;
+    color: #463852;
+    font-size: 2rem;
+    transition: 0.3s;
+}
+.input-wrapper.email i
+{
+    position: relative;
+    bottom: 3.5rem;
+    left: 39rem;
+    color: #463852;
+    font-size: 2rem;
+    transition: 0.3s;
+}
+.input-wrapper.message i
+{
+    position: relative;
+    bottom: 9rem;
+    left: 39rem;
+    color: #463852;
+    font-size: 2rem;
     transition: 0.3s;
 }
 .form-wrapper button
 {
-    padding: 10px 0;
     color: #c45555;
+    font-size: 1.5rem;
     background: #fdacac;
     outline: none;
     border: none;
-    width: 100%;
+    border-radius: 20px;
+    width: 42.5rem;
+    height: 4rem;
     cursor: pointer;
+    transition: 0.3s;
+}
+.form-wrapper button:hover
+{
+    background: #c45555;
+    color: #fdacac;
 }
 .row
 {
@@ -1162,21 +1238,21 @@ form
 }
 input.email
 {
-    height: 2.5rem;
+    height: 5rem;
     width: 42.8rem;
 }
 input.first-name
 {
-    height: 2.5rem;
-    width: 19.5rem;
+    height: 5rem;
+    width: 332.1px;
 }
 input.last-name
 {
-    height: 2.5rem;
-    width: 19.5rem;
+    height: 5rem;
+    width: 332.1px;
 }
 textarea.message
 {
-    height: 4rem;
+    height: 10rem;
     width: 42.8rem;
 }

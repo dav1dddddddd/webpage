@@ -2,6 +2,7 @@
 My personal website I worked very hard on to reach my expectations.
 Only a 1st step for what's to come.&nbsp;
 # Unfinished
+- Styling for mobile users&nbsp;
 - Reorganizing style.css&nbsp;
 # Recently finished
 - Connecting a domain&nbsp;

@@ -54,11 +54,9 @@ html
 .social-buttons ul
 {
     position: relative;
-    width: 10rem;
-    top: 32rem;
-    left: 52.5%;
-    margin: 0;
-    padding: 0;
+    width: 2rem;
+    top: 35rem;
+    left: 48%;
     transform: translate(-50%, -50%);
     display: flex;
 }
@@ -73,11 +71,10 @@ html
     line-height: 2rem;
     transition: .6s;
     margin-top: 1.5rem;
-    color: #ffffff;
+    color: rgba(70, 56, 82, 1);
 }
 .social-buttons ul li a
 {
-    bottom: 5rem;
     position: relative;
     display: block;
     width: 5rem;
@@ -111,12 +108,10 @@ html
 .me
 {
     width: 26.375rem;
-    max-width: 35rem;
-    border: 0.5rem solid #000000;
     border-radius: 18.75rem;
     position: relative;
-    left: 15%;
-    top: 3.5rem;
+    left: 20%;
+    margin-top: 7.5%;
 }
 .selfie img
 {
@@ -142,13 +137,12 @@ html
 .intro-sentence
 {
     position: relative;
-    bottom: 19rem;
     left: 47.5%;
+    bottom: 20rem;
     max-width: 35rem;
 }
 .intro-sentence p
 {
-    position: relative;
     font-size: 1.875rem;
 }
 #pre-text
@@ -171,8 +165,8 @@ html
     align-items: center;
     flex-direction: column;
     margin-top: 15%;
-    margin-left: 32%;
-    max-width: 36rem;
+    margin-left: 34%;
+    width: 36rem;
 }
 .icon-images i
 {
@@ -197,7 +191,7 @@ html
 {
     position: relative;
     top: 1.5rem;
-    width: 80.5rem;
+    width: 100%;
 }
 .aboutcontainer2 a
 {
@@ -1087,12 +1081,13 @@ q
 }
 .text a
 {
-    color: #ff5656;
-    transition: 0.3s;
+    color: #c45555;
+    transition: 0.5s;
+    text-decoration: none;
 }
 .text a:hover
 {
-    color: #c45555;
+    color: #964545;
 }
 .form-wrapper
 {
@@ -1271,19 +1266,24 @@ footer
     display: flex;
     align-items: center;
     font-size: 1.25rem;
-    height: 3.5rem;
+    height: 4rem;
     width: 100%;
     background-color: rgba(70, 56, 82, 1);
 }
 footer #credits
 {
     position: relative;
-    right: 7.5%;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
 }
 footer #copyright
 {
     position: relative;
-    left: 13.75%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    left: 60%;
 }
 footer a
 {
@@ -1302,16 +1302,66 @@ footer a:hover
 {
     color: #c45555;
 }
+footer .container
+{
+    position: absolute;
+    width: 40%;
+    height: 7.5rem;
+    left: 29%;
+    bottom: 5.5rem;
+    background-color: rgba(70, 56, 82, 0.8);
+    border: 0.05px solid rgba(70, 56, 82, 1);
+    border-radius: 1.375rem;
+    z-index: 0;
+}
+.cv
+{
+    position: absolute;
+    width: 15%;
+    height: 5rem;
+    left: 52.75%;
+    bottom: 6.75rem;
+    background-color: #fdacac;
+    border-radius: 1.375rem;
+    transition: 0.3s;
+    z-index: 0;
+}
+.cv:hover
+{
+    background-color: #c45555;
+}
+.cv a
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding-left: 4.25rem;
+    font-size: 1.5rem;
+    width: 100%;
+    height: 5rem;
+    color: #c45555;
+    z-index: 1;
+}
+.cv a:visited
+{
+    color: #c45555;
+}
+.cv a:hover
+{
+    color: #fdacac;
+}
 .footer-socials ul
 {
     position: relative;
-    width: 10rem;
-    top: 1rem;
-    left: 430%;
+    width: 5rem;
+    bottom: 0.25rem;
+    left: 37.5rem;
     margin: 0;
     padding: 0;
     transform: translate(-50%, -50%);
     display: flex;
+    z-index: 1;
 }
 .footer-socials ul li
 {
@@ -1320,20 +1370,20 @@ footer a:hover
 }
 .footer-socials ul li i
 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     line-height: 2rem;
     transition: .6s;
-    margin-top: 0.5rem;
-    color: #ffffff;
+    margin-top: 1rem;
+    color: rgba(70, 56, 82, 1);
 }
 .footer-socials ul li a
 {
     bottom: 5rem;
     position: relative;
     display: block;
-    width: 3rem;
-    height: 3rem;
-    border-radius: 1.5rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
     background-color: #fdacac;
     text-align: center;
     transition: 0.6s;

@@ -5,6 +5,7 @@ Only a 1st step for what's to come.&nbsp;
 - Styling for mobile users&nbsp;
 - Reorganizing style.css&nbsp;
 # Recently finished
+- Footer & socials (contained)
 - Connecting a domain&nbsp;
 - Contact form&nbsp;
 - Submitting messages - Google Sheets&nbsp;

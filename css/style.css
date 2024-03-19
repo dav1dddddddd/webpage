@@ -216,7 +216,7 @@ g
 }
 .about-row p
 {
-    max-width: 102.75rem;
+    max-width: 100%;
     font-size: 1.0625rem;
     margin-left: 4.5%;
 }
@@ -348,7 +348,7 @@ g
     background-color: rgba(70, 56, 82, 0.8);
     border-radius: 0.5rem;
     width: 23rem;
-    height: 2.5rem;
+    height: 2.525rem;
     bottom: 4.55rem;
     left: 18.2rem;
     z-index: 1;
@@ -370,8 +370,8 @@ g
     background-color: rgba(70, 56, 82, 0.8);
     border-radius: 0.5rem;
     width: 23rem;
-    height: 2.5rem;
-    bottom: 14.675rem;
+    height: 2.525rem;
+    bottom: 14.65rem;
     right: 5.8rem;
     z-index: 1;
 }
@@ -546,13 +546,13 @@ edu4
     position: relative;
     font-size: 1.925rem;
     font-weight: 700;
-    left: 1.65rem;
+    left: 3.65rem;
     bottom: 14rem;
 }
 edu5
 {
     position: relative;
-    left: 0.75rem;
+    left: 3rem;
     font-size: 1.25rem;
     color: #fd7a7a;
     bottom: 15rem;

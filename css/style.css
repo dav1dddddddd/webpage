@@ -53,9 +53,9 @@ html
 }
 .social-buttons ul
 {
-    position: relative;
+    position: absolute;
     width: 2rem;
-    top: 35rem;
+    margin-top: 29.5%;
     left: 48%;
     transform: translate(-50%, -50%);
     display: flex;
@@ -107,10 +107,10 @@ html
 }
 .me
 {
-    width: 26.375rem;
+    width: 27.5%;
     border-radius: 18.75rem;
     position: relative;
-    left: 20%;
+    left: 15%;
     margin-top: 7.5%;
 }
 .selfie img
@@ -923,7 +923,6 @@ q
 {
     position: relative;
     bottom: 6rem;
-    right: 2.25rem;
     width: 10rem;
     background-size: cover;
     cursor: pointer;
@@ -1280,10 +1279,10 @@ footer #credits
 footer #copyright
 {
     position: relative;
-    display: flex;
+    display: block;
     align-items: center;
     align-content: center;
-    left: 60%;
+    left: 50%;
 }
 footer a
 {
@@ -1336,7 +1335,7 @@ footer .container
     display: flex;
     align-items: center;
     align-content: center;
-    padding-left: 4.25rem;
+    padding-left: 19.5%;
     font-size: 1.5rem;
     width: 100%;
     height: 5rem;
@@ -1356,7 +1355,7 @@ footer .container
     position: relative;
     width: 5rem;
     bottom: 0.25rem;
-    left: 37.5rem;
+    left: 600%;
     margin: 0;
     padding: 0;
     transform: translate(-50%, -50%);

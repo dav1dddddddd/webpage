@@ -55,7 +55,7 @@ html
 {
     position: absolute;
     width: 2rem;
-    margin-top: 29.5%;
+    margin-top: 31.5%;
     left: 48%;
     transform: translate(-50%, -50%);
     display: flex;
@@ -111,7 +111,7 @@ html
     border-radius: 18.75rem;
     position: relative;
     left: 15%;
-    margin-top: 7.5%;
+    margin-top: 10%;
 }
 .selfie img
 {

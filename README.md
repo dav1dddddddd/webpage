@@ -1,3 +1,5 @@
+# This webpage is outdated,
+# Please refer to [webpage-new](https://github.com/dav1dddddddd/webpage-new)
 # Hey! I'm David Lim. 👋
 This is the source code for my personal website.&nbsp;
 It's been amazing watching my vision come to life.&nbsp;
